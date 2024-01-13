@@ -109,7 +109,7 @@ contaX.on("mousemove", function (event) {
 const GraphGalF = [
   function(){
     $("#graph_next").css("top","80%");
-    $("#graphic_gal").css({"background":"url('images/pamph2.jpg') no-repeat center/cover"});
+    $("#graphic_gal").css({"background":"url('./images/pamph2.jpg') no-repeat center/cover"});
     $("#graph_workDesc").slideUp(500,function(){
       $("#graph_workDesc").html("pamphlet sample 2");
       $("#graph_workDesc").slideDown(500);
@@ -117,7 +117,7 @@ const GraphGalF = [
    },
   function(){
     $("#graph_next").css("top","70%");
-    $("#graphic_gal").css({"background":"url('images/pamph3.jpg') no-repeat center/cover"});
+    $("#graphic_gal").css({"background":"url('./images/pamph3.jpg') no-repeat center/cover"});
     $("#graph_workDesc").slideUp(500,function(){
       $("#graph_workDesc").html("pamphlet sample 3");
       $("#graph_workDesc").slideDown(500);
@@ -125,7 +125,7 @@ const GraphGalF = [
    },
    function(){
     $("#graph_next").css("top","60%");
-    $("#graphic_gal").css({"background":"url('images/pamph4.jpg') no-repeat center/cover"});
+    $("#graphic_gal").css({"background":"url('./images/pamph4.jpg') no-repeat center/cover"});
     $("#graph_workDesc").slideUp(500,function(){
       $("#graph_workDesc").html("pamphlet sample 4");
       $("#graph_workDesc").slideDown(500);
@@ -134,7 +134,7 @@ const GraphGalF = [
   
   function(){
     $("#graph_next").css("top","50%");
-    $("#graphic_gal").css({"background":"url('images/V_card01.jpg') no-repeat center/cover"});
+    $("#graphic_gal").css({"background":"url('./images/V_card01.jpg') no-repeat center/cover"});
     $("#graph_workDesc").slideUp(500,function(){
       $("#graph_workDesc").html("pamphlet sample 5");
       $("#graph_workDesc").slideDown(500);
@@ -142,7 +142,7 @@ const GraphGalF = [
   },
   function(){
     $("#graph_next").css("top","40%");
-    $("#graphic_gal").css({"background":"url('images/V_card02.jpg') no-repeat center/cover"});
+    $("#graphic_gal").css({"background":"url('./images/V_card02.jpg') no-repeat center/cover"});
     $("#graph_workDesc").slideUp(500,function(){
       $("#graph_workDesc").html("pamphlet sample 6");
       $("#graph_workDesc").slideDown(500);
@@ -150,7 +150,7 @@ const GraphGalF = [
   },
   function(){
     $("#graph_next").css("top","30%");
-    $("#graphic_gal").css({"background":"url('images/art4.jpg') no-repeat center/cover"});
+    $("#graphic_gal").css({"background":"url('./images/art4.jpg') no-repeat center/cover"});
     $("#graph_workDesc").slideUp(500,function(){
       $("#graph_workDesc").html("pamphlet sample 7");
       $("#graph_workDesc").slideDown(500);
@@ -174,7 +174,7 @@ const GraphGalF = [
   },
   function(){
     $("#graph_next").css("top","90%");
-    $("#graphic_gal").css({"background":"url('images/pamph1.jpg') no-repeat center/cover"});
+    $("#graphic_gal").css({"background":"url('./images/pamph1.jpg') no-repeat center/cover"});
     $("#graph_workDesc").slideUp(500,function(){
       $("#graph_workDesc").html("pamphlet sample 1");
       $("#graph_workDesc").slideDown(500);
@@ -246,7 +246,7 @@ let graphindex = 0;
   //scroll button in forfolio machine drafting page
   for (let i = 1; i <= 11; i++) {
     $("#machinD"+i).on("click",function() {
-      $("#machin_gal").css({"background-image":'url("images/machine' + i + '.jpg")'});
+      $("#machin_gal").css({"background-image":'url("./images/machine' + i + '.jpg")'});
       
       $(this).css({"border-radius":"40%"});
       $(".machinD").not(this).css({"border-radius":"10%"});

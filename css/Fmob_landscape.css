@@ -22,7 +22,7 @@
       width:10%;
       height:100%;
       
-      background:url(images/logo.png) no-repeat center/50%;
+      background:url(../images/logo.png) no-repeat center/50%;
       position: absolute; left: 0; top:0;
   }
   
@@ -51,8 +51,8 @@
       overflow: hidden;}
   
   #menu1{width:10%;  height:10vh; display: flex; justify-content: center; align-items: center; font-size: 2em; position: relative; top:0; left:90%;}
-  .menu11{background: url(images/m1.png) no-repeat center/50%; transition: all 1s ease-in-out;}
-  .menu12{background: url(images/c1.png) no-repeat center/50%;transition: all 1s ease-in-out; } 
+  .menu11{background: url(../../images/m1.png) no-repeat center/50%; transition: all 1s ease-in-out;}
+  .menu12{background: url(../../images/c1.png) no-repeat center/50%;transition: all 1s ease-in-out; } 
   
   #menu2,#menu3,#menu4,#menu5,#menu6{width:100%; height:10vh; background:linear-gradient(45deg, rgba(203, 5, 140, 0.775),rgba(94, 2, 173, 0.578)); display: flex; justify-content: center; align-items: center;margin-left:0%; margin-top:1%; font-size:0.8em; position: relative; cursor: pointer;   }
   
@@ -69,7 +69,7 @@
       opacity:0.4;
       margin-top: 0%;
       position: absolute; top: 0;
-      background:url(images/RoundArt.png) no-repeat center/cover;
+      background:url(../images/RoundArt.png) no-repeat center/cover;
       border-radius:50%; border: 0px solid white;
       animation:rot 5s infinite linear;
   }
@@ -97,9 +97,9 @@
       box-shadow: inset 0 0 150px black; position: absolute; right: -200%; bottom: 0%; }
   
   @keyframes bgar{
-    0%{background: url(images/manfall.jpg) no-repeat center/auto 100%; }
-    50%{background: url(images/manfall1.jpg) no-repeat center/auto 100%; }
-    100%{background: url(images/manfall.jpg) no-repeat center/auto 100%; }
+    0%{background: url(../images/manfall.jpg) no-repeat center/auto 100%; }
+    50%{background: url(../images/manfall1.jpg) no-repeat center/auto 100%; }
+    100%{background: url(../images/manfall.jpg) no-repeat center/auto 100%; }
   }
   
   /*portfolio page*/
@@ -132,14 +132,14 @@
   #PortP2apps{width: 90%; height:180px; background: #1b3235; position: absolute; top: 0%; left:5%; display: flex; white-space:nowrap; overflow-x: scroll; overflow-y: hidden; scroll-behavior: smooth; border:5px solid white; border-radius: 15px;}
   #PortP2apps div{width:100px; height:90%; flex: 0 0 auto; margin-left: 2%; margin-top: 2%; box-shadow:0 0 5px black;}
   
-  #app1{background: url("images/SMW.png") no-repeat center/100%;}
-  #app2{background: url("images/multical.png") no-repeat center/100%;}
-  #app3{background: url("images/GTN.png") no-repeat center/100%;}
-  #app4{background: url("images/FTD.png") no-repeat center/100%;}
-  #app5{background: url("images/TechClocks.png") no-repeat center/100%;}
-  #app6{background: url("images/NOTDONE.png") no-repeat center/100%; filter: blur(2px);}
-  #app7{background: url("images/NOTDONE.png") no-repeat center/100%; filter: blur(2px);}
-  #app8{background: url("images/NOTDONE.png") no-repeat center/100%; filter: blur(2px);}
+  #app1{background: url("../images/SMW.png") no-repeat center/100%;}
+  #app2{background: url("../images/multical.png") no-repeat center/100%;}
+  #app3{background: url("../images/GTN.png") no-repeat center/100%;}
+  #app4{background: url("../images/FTD.png") no-repeat center/100%;}
+  #app5{background: url("../images/TechClocks.png") no-repeat center/100%;}
+  #app6{background: url("../images/NOTDONE.png") no-repeat center/100%; filter: blur(2px);}
+  #app7{background: url("../images/NOTDONE.png") no-repeat center/100%; filter: blur(2px);}
+  #app8{background: url("../images/NOTDONE.png") no-repeat center/100%; filter: blur(2px);}
   
   
   
@@ -151,11 +151,11 @@
       font-size: 1.4em; display: block;}
    #PortP3Gal{width:95%; height:300px;background: #27374D; display: flex; border-radius: 0px; overflow: hidden; box-shadow:0 0 10px black inset; }
     #pic1,#pic2,#pic3,#pic4,#pic5{width:20%; height: 100%; border: 1px solid white; transition: all 1s ease-in-out; opacity: 0.5; background: #dedbdb;}
-    #pic1{background: url("images/RM.png") no-repeat center/auto 100%; box-shadow: 0 0 10px black inset;}
-    #pic2{background: url("images/MYPORT1.png") no-repeat left/auto 100%; box-shadow: 0 0 10px black inset;}
-    #pic3{background: url("images/MYPORT.png") no-repeat center/auto 100%; box-shadow: 0 0 10px black inset;}
-    #pic4{background: url("images/NOTDONE.png") no-repeat center/100% 100%; box-shadow: 0 0 10px black inset;}
-    #pic5{background: url("images/NOTDONE.png") no-repeat center/100% 100%; box-shadow: 0 0 10px black inset;}
+    #pic1{background: url("../images/RM.png") no-repeat center/auto 100%; box-shadow: 0 0 10px black inset;}
+    #pic2{background: url("../images/MYPORT1.png") no-repeat left/auto 100%; box-shadow: 0 0 10px black inset;}
+    #pic3{background: url("../images/MYPORT.png") no-repeat center/auto 100%; box-shadow: 0 0 10px black inset;}
+    #pic4{background: url("../images/NOTDONE.png") no-repeat center/100% 100%; box-shadow: 0 0 10px black inset;}
+    #pic5{background: url("../images/NOTDONE.png") no-repeat center/100% 100%; box-shadow: 0 0 10px black inset;}
 
     #PortP3para{width:90%; height:max-content; margin-left: 5%; color: #01011c; font-size: small;  font-family: 'Courier New', Courier, monospace; overflow-y:visible;}
     #PortP3para h2, #PortP3para h3{color: #01011c;}
@@ -170,17 +170,17 @@
   #logohider div{width:100px; height:100px; border-radius:10%; border:2px solid cyan; box-shadow: 5px 5px 8px rgb(0, 0, 0); position: absolute; top:-80px; transform: rotate(45deg); transition: all 0.5s ease-out; }
   #logopara{width: 90%; height:50%; color:rgb(5, 20, 21);  position: absolute; bottom:0; padding-left: 5%; padding-right: 5%; font-size: 1.3em;}
   
-  #logo1{background: url('images/logo1.png') no-repeat center/90% 90%;  left:30px; background-color: white; }
-  #logo2{background: url('images/logo2.png') no-repeat center/90% 90%;  left:130px;background-color: white; }
-  #logo3{background: url('images/logo3.png') no-repeat center/90% 90%;  left:230px;background-color: white; }
-  #logo4{background: url('images/logo4.png') no-repeat center/90% 90%;  left:330px;background-color: white; }
-  #logo5{background: url('images/logo5.png') no-repeat center/90% 90%;  left:430px;background-color: white; }
-  #logo6{background: url('images/logo6.png') no-repeat center/90% 90%;  left:530px;background-color: white; }
-  #logo7{background: url('images/logo7.png') no-repeat center/90% 90%;  left:630px;background-color: white; }
-  #logo8{background: url('images/logo8.png') no-repeat center/90% 90%;  left:730px;background-color: white; }
-  #logo9{background: url('images/logo9.png') no-repeat center/90% 90%;  left:830px;background-color: white; }
-  #logo10{background:url('images/logo10.png') no-repeat center/90% 90%; left:930px;background-color: white; }
-  #logo12{background:url('images/logo12.png') no-repeat center/90% 90%; left:1030px;background-color: white; }
+  #logo1{background: url('../images/logo1.png') no-repeat center/90% 90%;  left:30px; background-color: white; }
+  #logo2{background: url('../images/logo2.png') no-repeat center/90% 90%;  left:130px;background-color: white; }
+  #logo3{background: url('../images/logo3.png') no-repeat center/90% 90%;  left:230px;background-color: white; }
+  #logo4{background: url('../images/logo4.png') no-repeat center/90% 90%;  left:330px;background-color: white; }
+  #logo5{background: url('../images/logo5.png') no-repeat center/90% 90%;  left:430px;background-color: white; }
+  #logo6{background: url('../images/logo6.png') no-repeat center/90% 90%;  left:530px;background-color: white; }
+  #logo7{background: url('../images/logo7.png') no-repeat center/90% 90%;  left:630px;background-color: white; }
+  #logo8{background: url('../images/logo8.png') no-repeat center/90% 90%;  left:730px;background-color: white; }
+  #logo9{background: url('../images/logo9.png') no-repeat center/90% 90%;  left:830px;background-color: white; }
+  #logo10{background:url('../images/logo10.png') no-repeat center/90% 90%; left:930px;background-color: white; }
+  #logo12{background:url('../images/logo12.png') no-repeat center/90% 90%; left:1030px;background-color: white; }
   
   #logohider div::before{color: rgb(14, 12, 12); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width:250px; height:20px; position: absolute; top:-50px; transform:rotate(-45deg); transition-delay: 0.5s; opacity: 0; transition: all 0.5s ease-out; display: flex; justify-content: center; align-items: center;}
   
@@ -206,12 +206,12 @@
   #graphic_para{width: 96%; height:max-content; padding:2%; color: black; background:transparent; border-radius: 20px;
     border: 0px; position: absolute; left:0; top:300px; overflow-y:hidden; overflow-x: hidden;}
   
-  #graphic_gal{width:70%; height:250px; border-radius: 5px; background:url("images/pamph1.jpg") no-repeat center/cover;  
+  #graphic_gal{width:70%; height:250px; border-radius: 5px; background:url("../images/pamph1.jpg") no-repeat center/cover;  
     margin-left: 0%; border: 0px; position: absolute; left:15%; top:10px; box-shadow: 0 0 10px black; transition: all 0.5s ease-in-out; }
   
   #graph_ring{width: 100px; height:100px; border-radius: 50%; overflow:hidden; border:1px solid white; background:radial-gradient(at 30% 70%, rgb(255, 255, 255),rgb(50, 50, 50));
     position:absolute;  top:80%; left:50%; transform: translateX(-50%);  font-size: 70px; box-shadow: 0 0 10px black; transition: all 0.2s ease-in-out; z-index:5;}
-  #graph_ring::after{content:""; width: 100%; height: 100%; background: url("images/modern_next.png") no-repeat center/60% 100%; position: absolute;
+  #graph_ring::after{content:""; width: 100%; height: 100%; background: url("../images/modern_next.png") no-repeat center/60% 100%; position: absolute;
      top: 0; left: 0; animation:modnext 1s infinite ease-in-out; opacity: 1; transition: all 0.5s ease-in-out;}
   #graph_ring:hover::after{opacity: 1;}
   @keyframes modnext{0% ,100%{left:-2.5%} 50%{left:2.5%}}
@@ -233,21 +233,21 @@
      #machin_content{width:100%; height:100%; overflow:auto; position: absolute; top: 0; }
      #machin_content div{width: 70%; height: 15%;border: 2px solid #DAC0A3; margin:10%; box-shadow: 0 0 10px black; border-radius: 10%;
       mask-image: linear-gradient(to top,black,transparent);-webkit-mask-image: linear-gradient(to top,black,transparent); transition: all 0.5s ease-in-out;  }
-     #machinD1{background: url("images/machine1_thumb.jpg") no-repeat left/200% 100%;}
-     #machinD2{background: url("images/machine2_thumb.jpg") no-repeat left/200% 100%;}
-     #machinD3{background: url("images/machine3_thumb.jpg") no-repeat left/200% 100%;}
-     #machinD4{background: url("images/machine4_thumb.jpg") no-repeat left/200% 100%;}
-     #machinD5{background: url("images/machine5_thumb.jpg") no-repeat left/200% 100%;}
-     #machinD6{background: url("images/machine5_thumb.jpg") no-repeat left/200% 100%;}
-     #machinD7{background: url("images/machine7_thumb.jpg") no-repeat left/200% 100%;}
-     #machinD8{background: url("images/machine8_thumb.jpg") no-repeat left/200% 100%;}
-     #machinD9{background: url("images/machine9_thumb.jpg") no-repeat left/200% 100%;}
-     #machinD10{background: url("images/machine10_thumb.jpg") no-repeat left/200% 100%;}
-     #machinD11{background: url("images/machine11_thumb.jpg") no-repeat left/200% 100%;}
+     #machinD1{background: url("../images/machine1_thumb.jpg") no-repeat left/200% 100%;}
+     #machinD2{background: url("../images/machine2_thumb.jpg") no-repeat left/200% 100%;}
+     #machinD3{background: url("../images/machine3_thumb.jpg") no-repeat left/200% 100%;}
+     #machinD4{background: url("../images/machine4_thumb.jpg") no-repeat left/200% 100%;}
+     #machinD5{background: url("../images/machine5_thumb.jpg") no-repeat left/200% 100%;}
+     #machinD6{background: url("../images/machine5_thumb.jpg") no-repeat left/200% 100%;}
+     #machinD7{background: url("../images/machine7_thumb.jpg") no-repeat left/200% 100%;}
+     #machinD8{background: url("../images/machine8_thumb.jpg") no-repeat left/200% 100%;}
+     #machinD9{background: url("../images/machine9_thumb.jpg") no-repeat left/200% 100%;}
+     #machinD10{background: url("../images/machine10_thumb.jpg") no-repeat left/200% 100%;}
+     #machinD11{background: url("../images/machine11_thumb.jpg") no-repeat left/200% 100%;}
      
      #machin_content div:hover{mask-image: linear-gradient(to bottom,black,transparent);-webkit-mask-image: linear-gradient(to bottom,black,transparent); filter: invert(1);}
      
-     #machin_gal{width: 85%; height: 90%; border: 1px solid #526D82; background-image:url("images/machine1.jpg"); background-size:cover;
+     #machin_gal{width: 85%; height: 90%; border: 1px solid #526D82; background-image:url("../images/machine1.jpg"); background-size:cover;
       mask-image: linear-gradient(to top,black,black);-webkit-mask-image: linear-gradient(to top,black,black); 
       position: absolute; left: 15%; bottom:10%; border-radius: 0px; overflow: scroll; transition: all 1s ease-in-out; filter:invert(10);
       background-attachment:scroll; overflow: scroll;
@@ -255,7 +255,7 @@
     
   
   /* portfolio page -writer */
-   #portP7W{width:99%; height:78%; border: 1px solid #526D82; background:url("images/bg_Z2.jpg") no-repeat center/auto 100%; position: absolute;
+   #portP7W{width:99%; height:78%; border: 1px solid #526D82; background:url("../images/bg_Z2.jpg") no-repeat center/auto 100%; position: absolute;
     display: flex; bottom:3%; left: 0%; opacity: 1; border-radius: 10px; box-shadow: 0 0 0px black inset; overflow-y: scroll;}
    #write_para{width:96%; height:max-content; padding: 2%; box-shadow: 0 0 0px black; border-radius:20px 0 0 20px; opacity:0.8; position: absolute;
     left:0%; top:220%; overflow-y: scroll; overflow-x: hidden; text-align: justify; padding: 2%; color:whitesmoke; font-size: 1em; }
@@ -273,12 +273,12 @@
     30%{transform:rotate(0deg);}
     100%{transform:rotate(0deg);}
   }
-   .book_backcover,.book_frontcover{width:100%; height:100%;position: absolute; border-radius:0 20px 20px 0; background: url("images/KSI-BookCover.JPEG") no-repeat center/105% 105%; transform-style: preserve-3d; transform: perspective(1000px) rotate(0deg); transform-origin: center left; box-shadow:5px 5px 10px black;}
+   .book_backcover,.book_frontcover{width:100%; height:100%;position: absolute; border-radius:0 20px 20px 0; background: url("../images/KSI-BookCover.JPEG") no-repeat center/105% 105%; transform-style: preserve-3d; transform: perspective(1000px) rotate(0deg); transform-origin: center left; box-shadow:5px 5px 10px black;}
    .book_page1,.book_page2,.book_page3,.book_page4{width:95%; height:95%; background:linear-gradient(to right, grey, white); position: absolute; top:2.5%; left: 0; border-radius: 0 20px 20px 0; transform-style: preserve-3d; transform: perspective(1000px) rotate(0deg);transform-origin: center left; box-shadow: 2px 2px 5px grey;  }
    
    .book_page1::before,.book_page2:before,.book_page3:before,.book_page4:before{content: ""; width:100%; height:80%;position: absolute; top:10%; border-bottom:1px dotted black; border-top:1px dotted black;}
    
-   .book_page2:after{content: ""; width: 100%; height:30%; position: absolute; top:40%; left:0;  background: url("images/sher.png") no-repeat center/100%; border-bottom: 1px dotted black; }
+   .book_page2:after{content: ""; width: 100%; height:30%; position: absolute; top:40%; left:0;  background: url("../images/sher.png") no-repeat center/100%; border-bottom: 1px dotted black; }
    .book_backcover{z-index: -1;}
   
    .book_page1{transition-duration: 2s;}
@@ -295,8 +295,8 @@
    .write_book:hover .book_frontcover{transition-duration: 2.4s; transform:perspective(1000px) rotateY(-180deg) translateZ(2px); z-index:1;}
    
    #buyatamazon,#buyatflipkart{width:30px; height: 30px; position: absolute; top: 20%; border-radius: 50%; border:2px solid white; box-shadow: 0 0 5px black; transition-duration: 0.5s;} 
-   #buyatflipkart{left:60%; background: url("images/Flipkart-Logo.png") no-repeat center/100% 100%;}
-   #buyatamazon{left:20%; background: url("images/Amazon-logo.png") no-repeat center/100% 100%;}
+   #buyatflipkart{left:60%; background: url("../images/Flipkart-Logo.png") no-repeat center/100% 100%;}
+   #buyatamazon{left:20%; background: url("../images/Amazon-logo.png") no-repeat center/100% 100%;}
    #buyatamazon:hover,#buyatflipkart:hover{border: 2px solid red; transform:scale(90%);}
   
    #write_about{width:96%; height:50%; position: absolute; right:0; top:57%; border-radius:0px; box-shadow: 0 0 0px black inset; text-align: left; padding:2%;}
@@ -367,12 +367,12 @@
   
    /* portfolo page 1 */
    #portP1W1D,#portP1W2D,#portP1W3D,#portP1W4D,#portP1W5D,#portP1W6D{width:20%; height:0%;opacity:0;  position: absolute; display: flex; justify-content: center; align-items: center;  animation:animX 1s 1 ease-in-out; -webkit-mask-image: linear-gradient(0deg, transparent 0%, black 100%); mask-image: linear-gradient(0deg, transparent 0%, black 100%); border:10px solid #526D82; box-shadow:5px 5px 10px black inset;  }
-   #portP1W1D{left:25%; background: url(images/webapps.jpg) no-repeat center/100%;top: 20%; left:15%; }
-   #portP1W2D{left:37%;  background: url(images/logobg.jpg) no-repeat center/100%; top: 20%; left:40%;}
-   #portP1W3D{left:49.5%;  background: url(images/logobg.jpg) no-repeat center/100%;top: 20%; left:65%;}
-   #portP1W4D{left:61.5%;  background: url(images/graphicd.jpg) no-repeat center/100%; top: 60%; left:15%;}
-   #portP1W5D{left:73.5%;  background: url(images/machineD.jpg) no-repeat center/100%; top: 60%; left:40%;}
-   #portP1W6D{left:85.5%;  background: url(images/writer.jpg) no-repeat center/100%; top: 60%; left:65%;}
+   #portP1W1D{left:25%; background: url(../images/webapps.jpg) no-repeat center/100%;top: 20%; left:15%; }
+   #portP1W2D{left:37%;  background: url(../images/logobg.jpg) no-repeat center/100%; top: 20%; left:40%;}
+   #portP1W3D{left:49.5%;  background: url(../images/logobg.jpg) no-repeat center/100%;top: 20%; left:65%;}
+   #portP1W4D{left:61.5%;  background: url(../images/graphicd.jpg) no-repeat center/100%; top: 60%; left:15%;}
+   #portP1W5D{left:73.5%;  background: url(../images/machineD.jpg) no-repeat center/100%; top: 60%; left:40%;}
+   #portP1W6D{left:85.5%;  background: url(../images/writer.jpg) no-repeat center/100%; top: 60%; left:65%;}
    #portP1W1D::before{content:"Web Applications";} #portP1W2D::before{content:"UI/UX";} #portP1W3D::before{content:"Logo";} #portP1W4D::before{content:"Graphic Design";} #portP1W5D::before{content:"Machine Draft";} #portP1W6D::before{content:"Writer";}
    #portP1W1D::before,#portP1W2D::before,#portP1W3D::before,#portP1W4D::before,#portP1W5D::before,#portP1W6D::before{ width:100%; height:100%; position: absolute; top: 0; background:rgba(0, 221, 255, 0); color:transparent; transition: all 0.5s ease-in; display: flex; justify-content: center; align-items: center; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 1.3em;}
    #portP1W1D:hover::before,#portP1W2D:hover::before,#portP1W3D:hover::before,#portP1W4D:hover::before,#portP1W5D:hover::before,#portP1W6D:hover::before{background:rgba(255, 255, 255, 0.6); color: #0F2C59; text-shadow: 2px 2px 2px #FFC436;  }
@@ -383,24 +383,24 @@
    /* games css */
    /* #mainbody2{width:3%; height:85%;  opacity: 0; display:block; background-image:black; justify-content: center; align-items: center; position: absolute; top:23.5%;left: 0%; margin-top: 0%; transition: all 0.5s ease-in-out;}
    #gamesHd{width: 100%; height: 10%; background: #111111; display: flex; justify-content: center; align-items: center; font-size:2em; color: antiquewhite;} */
-   #game_div{width: 100%; height: 60%; background:url(images/bg_game.jpg) no-repeat left/auto 101%; background-position-x:93.34%; overflow-x: hidden;  overflow-y: hidden; mask-image: linear-gradient(0deg,transparent,black); -webkit-mask-image: linear-gradient(0deg,transparent,black);}
+   #game_div{width: 100%; height: 60%; background:url(../images/bg_game.jpg) no-repeat left/auto 101%; background-position-x:93.34%; overflow-x: hidden;  overflow-y: hidden; mask-image: linear-gradient(0deg,transparent,black); -webkit-mask-image: linear-gradient(0deg,transparent,black);}
    #gameslist{width:480%; height: 100%;  display: flex; position: relative; left:31%;} 
    #gameslist div{width:8%; height:90%; position: relative; margin-left:1%; margin-top:2%; border-radius: 30px; border: 5px solid rgb(4, 70, 106); box-shadow: 0 0 10px black;transition: all 0.5s ease-in-out;}
-   #game0{background:url(images/FTD.png) no-repeat center/110%;}
-   #game1{background:url(images/GTN.png) no-repeat center/110%;}
-   #game2{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game3{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game4{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game5{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game6{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game7{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game8{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game9{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game10{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game11{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game12{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game13{background:url(images/NOTDONE.png) no-repeat center/110%;}
-   #game14{background:url(images/NOTDONE.png) no-repeat center/110%;}
+   #game0{background:url(../images/FTD.png) no-repeat center/110%;}
+   #game1{background:url(../images/GTN.png) no-repeat center/110%;}
+   #game2{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game3{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game4{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game5{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game6{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game7{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game8{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game9{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game10{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game11{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game12{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game13{background:url(../images/NOTDONE.png) no-repeat center/110%;}
+   #game14{background:url(../images/NOTDONE.png) no-repeat center/110%;}
 
    #gameslist div span{width:50%; height:auto; background: white; position: absolute; left:22%; top:0%; opacity: 0; padding: 3%; text-align: center; border-radius: 8px; transition: 0.5s ease-in-out; box-shadow: 0 0 10px black; cursor: pointer; }
    #gameslist div span:hover{ background: linear-gradient(70deg,black 90%, white 91%); color: white;}
@@ -430,7 +430,7 @@
     #MeCard{width:280px; height:25px; border:1px solid white; border-radius:15px; position: absolute; color:#a5caca; top:50%; background:rgba(255,255,255,0.2);
       display:flex; justify-content: center; align-items: center; font-size: small;}
     #mepic{width:150px; height:200px; border:5px solid rgb(130, 195, 252); border-radius:20px; position: absolute; color:#a5caca; top:60%; transform: translateY(0%) translateX(-50%); left:50%;
-      background:url("images/shaileshsingh.jpg") no-repeat center/auto 100%;   box-shadow: 10px 10px 20px black inset; }
+      background:url("../images/shaileshsingh.jpg") no-repeat center/auto 100%;   box-shadow: 10px 10px 20px black inset; }
     #medesc{width:80%; height:max-content; position: absolute; color:#a5caca; top:110%; transform: translateY(0%); left:10%;}
    
   
@@ -440,7 +440,7 @@
    #mainbody4::after{content: ""; width:100%; height: 150%; border-radius: 50%; background:linear-gradient(45deg,#ed6e19,transparent); opacity: 0.5; box-shadow: 0 0 10px black; position: absolute; top:-30%; left:-30%; z-index: 1;}
    #cont_main_div{width:350px; height: 350px; background:linear-gradient(45deg,#f50101,#90aaf9,#001f54); box-shadow: 0 0 20px #012d51; border-radius: 50%; position: relative; z-index: 2; top:7%;}
    #cont_main_div::before{content: ""; width:340px; height: 340px; background:linear-gradient(45deg,#90aaf9,#001f54); border-radius: 50%; position:absolute; left:5px; top:5px;}
-   #cont_circle{width:120px; height:120px; background:url("images/telephone.jpeg") no-repeat center/100%;  position: absolute; left:50%; top:-5%;
+   #cont_circle{width:120px; height:120px; background:url("../images/telephone.jpeg") no-repeat center/100%;  position: absolute; left:50%; top:-5%;
      transform: translateY(-50%) translateX(-50%); border-radius: 50%; z-index: 2; box-shadow: 0 0 10px black; display: flex; justify-content: center; align-items: center; font-size: 1.2em; font-weight: 600; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #F8DE22; text-shadow:3px 3px 5px black;}
    #contact_form{width:300px; height: 300px; border-radius: 50%; overflow: hidden; font-family: Georgia, 'Times New Roman', Times, serif; box-shadow: 0 0 10px black; position: absolute; top:50%; left:50%; transform:translateX(-50%) translateY(-50%);z-index:1; }
    #contact_form div{width: 100%; position: absolute; display: flex; justify-content: center; align-items: center; transition: all 0.5s ease-in-out;}
@@ -465,12 +465,12 @@
       justify-content: left; align-items: center; position: absolute; left: 45%; bottom:0%; padding-left: 5%;
       }
    #insta,#facebook,#twitter,#codepen,#gmail,#whatsapp{width:8%; height: 70%; margin-top:0%;  }
-   #insta{background: url(images/instagram.png) no-repeat center/50%;}
-   #facebook{background: url(images/facebook.png) no-repeat center/50%;}
-   #twitter{background: url(images/twitter.png) no-repeat center/50%;}
-   #whatsapp{background: url(images/whatsapp.png) no-repeat center/50%;}
-   #codepen{background: url(images/codepen.png) no-repeat center/50%;}
-   #gmail{background: url(images/email.png) no-repeat center/50%;}
+   #insta{background: url(../images/instagram.png) no-repeat center/50%;}
+   #facebook{background: url(../images/facebook.png) no-repeat center/50%;}
+   #twitter{background: url(../images/twitter.png) no-repeat center/50%;}
+   #whatsapp{background: url(../images/whatsapp.png) no-repeat center/50%;}
+   #codepen{background: url(../images/codepen.png) no-repeat center/50%;}
+   #gmail{background: url(../images/email.png) no-repeat center/50%;}
   
   
   
