@@ -4,8 +4,7 @@ body{background:url('../images/BGM.jpg') no-repeat center/cover; }
 ::-webkit-scrollbar-thumb {cursor:pointer;}
 
 /* all parent divs in HTML page */
-#header{width:100%; height:10%; color: aliceblue; display:flex; 
-  position: absolute; top:0; left:0;}
+#header{width:100%; height:10%; color: aliceblue; display:flex; position: absolute; top:0; left:0; z-index: 100;}
 #mainbody{width:100%; height:85%; display:flex; justify-content: center; align-items: center;  transition: all 0.5s ease-in-out;
    position: absolute; top:10%;left: 0%; }
 #mainbody1{width:4%; height:85%;  opacity: 0; display:flex; justify-content: center; align-items: center; border:0.5px solid rgb(147, 147, 147);
@@ -23,7 +22,7 @@ body{background:url('../images/BGM.jpg') no-repeat center/cover; }
 
 
 /* header Details */
-#logo{width:5vw; height:10vh;  display: flex; justify-content: center; align-items: center; background:url(../images/logo.png) no-repeat center/70%;}
+#logo{width:5vw; border: 1px solid white; height:10vh;  display: flex; justify-content: center; align-items: center; background:url(../images/logo.png) no-repeat center/70%;}
 #websiteName{width:13%; font-weight: bold; font-size: large; font-family: Verdana, Geneva, Tahoma, sans-serif; height: 100%; display: flex; justify-content: left; align-items: center; background: linear-gradient(to right, #e89393, #f6e674);
     -webkit-background-clip:text;background-clip: text;
     -webkit-text-fill-color: transparent;}
