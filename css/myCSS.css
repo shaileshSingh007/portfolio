@@ -29,7 +29,7 @@ body{background:url('../images/BGM.jpg') no-repeat center/cover; }
     -webkit-text-fill-color: transparent;}
 #menu{width:60%; height:40%;  display: inline-flex; justify-content: left; align-items: center; font-family:'Trebuchet MS'; text-shadow:0 0 5px rgb(254, 254, 129); overflow: hidden; position: absolute; top:30%;  left:15%;}
 
-#menu1{width:4%; height:100%;  display: flex; justify-content: center; align-items: center; font-size: 2em;}
+#menu1{width:4%; height:100%;  display: flex; justify-content: center; align-items: center; font-size: 2em; z-index:200;}
 .menu11{background: url('../images/m1.png') no-repeat center/40%; transition: all 1s ease-in-out;}
 .menu12{background: url('../images/c1.png') no-repeat center/40%;transition: all 1s ease-in-out; } 
 
